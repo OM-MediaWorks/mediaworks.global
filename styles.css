@@ -1,0 +1,185 @@
+@import url('/fonts.css');
+
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  line-height: 1.6;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "LatoLatinWeb";
+  margin: 0;
+  font-size: 18px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body.home {
+  background: #144799;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body.home p {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+body.home a {
+  color: white;
+  font-weight: bold;
+}
+
+body.home .inner {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.header {
+  margin-inline: auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 20px;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 1240px;
+  min-height: 200px;
+}
+
+.header .background {
+  position: absolute;
+  width: 101vw;
+  left: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateX(-50%);
+  display: block;
+  max-width: 2000px;
+  object-position: center;
+  z-index: -1;
+  border-bottom: 5px solid #d22630;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.page-title {
+  color: white;
+  text-shadow: black 0 0 3px;
+  font-size: 60px;
+}
+
+.open-position h2 {
+  font-size: 40px;
+}
+
+.short-about {
+  background: #eee;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.news.teaser {
+  max-width: 100%;
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 3em;
+}
+
+.news.teaser h3 {
+  color: #444;
+  margin-top: 0;
+}
+
+.news.teaser p {
+  margin: 0;
+  color: #444;
+}
+
+.sidebar {
+  font-size: 16px;
+  background: #f7f7f7;
+}
+
+.news.teaser .image {
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.main {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main > * {
+  padding: 20px;
+}
+
+p.first {
+  color: #d22630;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  padding: 1em;
+}
+
+.about-us {
+  margin-bottom: 40px;
+}
+
+.about-us img {
+  max-width: 100%;
+}
+
+.about-us p {
+  font-weight: bold;
+}
+
+body.developer a {
+  color: #d22630;
+}
+
+@media screen and (min-width: 800px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .page-title {
+    margin-top: 120px;
+  }
+
+  .short-about {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+
+  .sidebar {
+    max-width: 400px;
+  }
+}
