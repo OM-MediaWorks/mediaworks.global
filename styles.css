@@ -133,7 +133,6 @@ body.home .inner {
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-  gap: 40px;
 }
 
 .main > * {
@@ -167,6 +166,7 @@ body.developer a {
 
 @media screen and (min-width: 800px) {
   .main {
+    gap: 40px;
     flex-direction: row;
   }
 
@@ -179,7 +179,30 @@ body.developer a {
     margin-bottom: 50px;
   }
 
+  .about-us {
+    margin-top: 52px;
+  }
+
   .sidebar {
     max-width: 400px;
   }
+}
+
+.interested {
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 3px;
+  background: #d22630;
+}
+
+.interested h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+body.developer .interested a {
+  font-weight: bold;
+  color: white;
 }
