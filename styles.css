@@ -78,9 +78,18 @@ body.home .inner {
 }
 
 .page-title {
+  max-width: 1200px;
+  width: 100%;
   color: white;
-  text-shadow: black 0 0 3px;
-  font-size: 60px;
+  padding-inline: 20px;
+  text-shadow: black 0 0 6px;
+  font-size: 40px;
+}
+
+.page-title em {
+  font-size: .6em;
+  opacity: .8;
+  line-height: .8em;
 }
 
 .open-position h2 {
@@ -92,7 +101,7 @@ body.home .inner {
   border-radius: 4px;
   padding: 20px;
   margin-top: 0;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .news.teaser {
@@ -172,15 +181,16 @@ body.developer a {
 
   .page-title {
     margin-top: 120px;
+    font-size: 60px;
   }
 
   .short-about {
-    font-size: 22px;
-    margin-bottom: 50px;
+    /* font-size: 22px;
+    margin-bottom: 50px; */
   }
 
   .about-us {
-    margin-top: 52px;
+    /* margin-top: 52px; */
   }
 
   .sidebar {
