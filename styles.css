@@ -122,6 +122,7 @@ body.home .inner {
 
 .open-position {
   padding-inline: 20px;
+  flex: 1;
 }
 
 .open-position h2 {
