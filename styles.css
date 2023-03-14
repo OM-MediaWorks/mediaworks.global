@@ -209,7 +209,7 @@ body.home .inner {
 
 p.first {
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 ul {
@@ -326,6 +326,10 @@ h3 + p {
 
   .main > * {
     padding: 20px;
+  }
+
+  p.first {
+    font-size: 1.3em;
   }
 
   .position-label {
