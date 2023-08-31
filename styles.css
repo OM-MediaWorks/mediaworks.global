@@ -219,7 +219,16 @@ p.first {
 }
 
 ul {
+  padding-left: 18px;
   margin-top: 0;
+}
+
+ul li::marker {
+    color: #d22630;
+}
+
+ul li {
+  
 }
 
 .sidebar {
