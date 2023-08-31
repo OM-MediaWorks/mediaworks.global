@@ -19,7 +19,7 @@ html {
 body {
   font-family: "LatoLatinWeb";
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   height: 100%;
   overflow-x: hidden;
 }
@@ -215,7 +215,7 @@ body.home .inner {
 
 p.first {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 ul {
@@ -233,7 +233,7 @@ ul li {
 
 .sidebar {
   font-size: 16px;
-  color: #444;
+  color:#535353;
 }
 
 .sidebar ul {
@@ -261,7 +261,7 @@ body.developer a {
   padding: 50px 100px;
   color: white;
   margin-top: 40px;
-  margin-inline: -80px;
+  margin-inline: -60px;
   font-weight: bold;
   font-size: 1.3em;
   border-top-left-radius: 4px;
@@ -344,7 +344,7 @@ h3 + p {
   }
 
   p.first {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
 
   .position-label {
@@ -388,5 +388,42 @@ h3 + p {
   .main img.breakout {
     margin-left: -200px;
     max-width: calc(100% + 200px);
+    margin-top: 20px;
   }
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.open-position:after {
+  content: '';
+  display: block;
+  background-color: white;
+  width: calc(100% + 80px);
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: -100;
+}
+
+.open-position {
+  position: relative;
+  background-color: white;
+  
+}
+
+.interested {
+  position: relative;
+  z-index: 10;
+}
+
+small {
+  color: gray;
+}
+
+p + ul {
+  margin-top: -20px;
 }
